@@ -4,35 +4,56 @@ Proyecto de análisis de datos para ayudar al señor Juan a decidir qué tienda 
 
 ## 📊 Objetivo del Análisis
 
-Evaluar el rendimiento de 4 tiendas de Alura Store en Colombia, analizando:
+Evaluar el rendimiento de 4 tiendas de Alura Store en Colombia mediante un análisis multicriterio que incluye:
 
-1. **Facturación total** de cada tienda
-2. **Categorías más populares** por tienda
-3. **Calificación promedio** de los clientes
-4. **Productos más y menos vendidos**
-5. **Costo promedio de envío**
+- Facturación total de cada tienda  
+- Categorías más populares por tienda  
+- Calificación promedio de los clientes  
+- Volumen de transacciones  
+- Costo promedio de envío  
+
+## 🎯 Resultados del Análisis
+
+### Métricas Clave Evaluadas
+
+| Métrica              | Tienda 4         | Posición | Impacto |
+|----------------------|------------------|----------|---------|
+| Facturación Total    | 1,038M           | 4/4      | Alto    |
+| Calificación Clientes| 2,98 / 5         | 4/4      | Alto    |
+| Volumen Ventas       | 2.359 trans.     | 4/4      | Alto    |
+| Costo Envío          | 23.459 COP       | 4/4      | Alto    |
+| **Puntuación Total** | **15.0**         | **4/4**  | **Crítico** |
+
+## 📋 Recomendación Final
+
+**VENDER LA TIENDA 4** – Demuestra consistentemente el desempeño más bajo en todos los criterios evaluados, lo que la convierte en la candidata ideal para la venta y reinversión en oportunidades con mayor potencial de crecimiento.
 
 ## 🗂️ Estructura del Proyecto
 
-- `desafio_alura_store_latam.ipynb` - Notebook principal con el análisis
-- `README.md` - Documentación del proyecto
+- `desafio_alura_store_latam.ipynb` — Notebook principal con el análisis completo  
+- `README.md` — Documentación del proyecto  
 
 ## 🚀 Cómo ejecutar
 
-1. Abre el notebook en Google Colab haciendo clic en el badge "Open in Colab"
-2. Ejecuta las celdas en orden
-3. Los datos se cargan automáticamente desde GitHub
+1. Abre el notebook en Google Colab haciendo clic en el badge "Open in Colab"  
+2. Ejecuta las celdas en orden secuencial  
+3. Los datos se cargan automáticamente desde el repositorio  
 
-## 📈 Datos
+## 📈 Fuente de Datos
 
-El análisis utiliza datos de 4 tiendas que incluyen:
-- Información de productos y categorías
-- Precios y costos de envío
-- Calificaciones de clientes
-- Ubicaciones geográficas
+El análisis utiliza datos transaccionales de 4 tiendas que incluyen:
 
-## 🛠️ Tecnologías
+- Información de productos y categorías  
+- Precios y costos de envío  
+- Calificaciones de clientes  
+- Volúmenes de venta y facturación  
+- Ubicaciones geográficas  
 
-- Python
-- Pandas
-- Google Colab
+## 🛠️ Tecnologías Utilizadas
+
+- Python  
+- Pandas para análisis de datos  
+- Google Colab como entorno de ejecución  
+- Análisis estadístico y comparativo  
+
+> Análisis completado como parte del desafío **Alura Latam - Data Analytics**
